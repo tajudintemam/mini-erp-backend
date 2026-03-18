@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+*.pyo
+.env
+db.sqlite3
+media/
+employees
+staticfiles/
+htmlcov/
+.coverage
+*.egg-info/
+dist/
+build/
+venv/
+.idea/
+erp_env/
+.DS_Store
+EOF
